@@ -92,7 +92,7 @@ class QdrantVectorSearchTool(BaseTool):
             )
 
         # Search in Qdrant using the built-in query method
-        query_vector = self.vectorize_query(query)
+        query_vector = self._vectorize_query(query)
         search_results = self.client.query_points(
             collection_name=self.collection_name,
             query=query_vector,
@@ -114,7 +114,7 @@ class QdrantVectorSearchTool(BaseTool):
 
         return json.dumps(results, indent=2)
 
-    def vectorize_query(self, query: str) -> list[float]:
+    def _vectorize_query(self, query: str) -> list[float]:
         import openai
 
         client = openai.Client(api_key=os.getenv("OPENAI_API_KEY"))

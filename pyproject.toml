@@ -9,6 +9,7 @@ dependencies = [
     "openai>=1.60.0",
     "qdrant-client>=1.13.2",
     "transformers>=4.46.3",
+    "weaviate-client>=4.11.0",
 ]
 
 [project.scripts]
@@ -17,6 +18,11 @@ run_crew = "analyzing_contract_clauses_for_conflicts_and_similarities.main:run"
 train = "analyzing_contract_clauses_for_conflicts_and_similarities.main:train"
 replay = "analyzing_contract_clauses_for_conflicts_and_similarities.main:replay"
 test = "analyzing_contract_clauses_for_conflicts_and_similarities.main:test"
+
+[project.optional-dependencies]
+docling = [
+    "docling>=2.15.1",
+]
 
 [build-system]
 requires = ["hatchling"]

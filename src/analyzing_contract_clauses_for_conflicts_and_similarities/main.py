@@ -10,7 +10,10 @@ def run():
     Run the crew.
     """
     inputs = {
-        "query": "What are the differences in how contracts define warranties within creditcardscominc and digitalcinemadestination",
+        "query": """
+            What are the differences in how contracts 
+            define warranties within creditcardscominc and digitalcinemadestination
+        """,
     }
     AnalyzingContractClausesForConflictsAndSimilaritiesCrew().crew().kickoff(
         inputs=inputs

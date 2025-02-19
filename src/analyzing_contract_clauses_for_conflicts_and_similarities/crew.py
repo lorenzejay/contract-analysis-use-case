@@ -1,24 +1,17 @@
+import os
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-
-# from crewai_tools import QdrantVectorSearchTool
-import os
-from dotenv import load_dotenv
-from analyzing_contract_clauses_for_conflicts_and_similarities.tools.qdrant_vector_search_tool import (
-    QdrantVectorSearchTool,
-)
-
-load_dotenv()
+from crewai_tools import WeaviateVectorSearchTool
 
 
 @CrewBase
 class AnalyzingContractClausesForConflictsAndSimilaritiesCrew:
     """AnalyzingContractClausesForConflictsAndSimilarities crew"""
 
-    vector_search_tool = QdrantVectorSearchTool(
-        collection_name="contracts_business_5",
-        qdrant_url=os.getenv("QDRANT_URL"),
-        qdrant_api_key=os.getenv("QDRANT_API_KEY"),
+    vector_search_tool = WeaviateVectorSearchTool(
+        collection_name="contracts_business_latest",
+        weaviate_cluster_url=os.getenv("WEAVIATE_URL"),
+        weaviate_api_key=os.getenv("WEAVIATE_API_KEY"),
     )
 
     @agent
