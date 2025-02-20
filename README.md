@@ -1,5 +1,29 @@
 # AnalyzingContractClausesForConflictsAndSimilarities Crew
 
+# Hacknight 2/19/2025
+Install crewai
+uv pip install crewai
+
+
+
+
+1. Update the knowledge directory to take different files (Could use kaggle data)
+2. Update pre_process_weaviate.py to take different files
+3. Add env variables
+    - OPENAI_API_KEY
+    - WEAVIATE_URL
+    - WEAVIATE_API_KEY
+4. Update your agents.yaml and tasks.yaml
+5. Upload your crew to Github
+6. Run your crew: `crewai run`
+7. Deploy your crew to github
+8. Sign up for a free account on crewai.com
+9. Sync your github repo to crewai.com
+10. Deploy your crew to crewai.com (takes a few minutes) and be sure to add your env variables
+11. Use the management ui to run your crew
+
+
+
 Welcome to the AnalyzingContractClausesForConflictsAndSimilarities Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation

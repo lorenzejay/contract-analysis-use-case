@@ -1,7 +1,7 @@
 ---
 retrieve_contracts_task:
   description: >
-    Retrieve contracts from the vector database using QdrantVectorSearchTool
+    Retrieve contracts from the vector database using WeaviateVectorSearchTool
     Focus on extracting the necessary data for specific clauses that need analysis.
     You need to retreve relevant contracts from the vector database based on the query: {query}
   expected_output: A dataset containing all relevant contracts with specific clauses

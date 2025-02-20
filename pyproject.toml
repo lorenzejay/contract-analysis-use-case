@@ -20,9 +20,7 @@ replay = "analyzing_contract_clauses_for_conflicts_and_similarities.main:replay"
 test = "analyzing_contract_clauses_for_conflicts_and_similarities.main:test"
 
 [project.optional-dependencies]
-docling = [
-    "docling>=2.15.1",
-]
+docling = []
 
 [build-system]
 requires = ["hatchling"]
