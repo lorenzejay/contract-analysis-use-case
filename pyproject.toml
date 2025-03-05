@@ -11,7 +11,6 @@ dependencies = [
     "qdrant-client>=1.13.2",
     "torch>=2.6.0",
     "torchvision>=0.21.0",
-    "transformers>=4.46.3",
 ]
 
 [project.scripts]
@@ -32,8 +31,3 @@ torch = [
 torchvision = [
     { index = "pytorch-cpu" },
 ]
-
-[[tool.uv.index]]
-name = "pytorch-cpu"
-url = "https://download.pytorch.org/whl/cpu"
-explicit = false
