@@ -9,6 +9,8 @@ dependencies = [
     "docling>=2.15.1",
     "openai>=1.60.0",
     "qdrant-client>=1.13.2",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
     "transformers>=4.46.3",
 ]
 
@@ -23,7 +25,15 @@ test = "analyzing_contract_clauses_for_conflicts_and_similarities.main:test"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cpu" },
+]
+torchvision = [
+    { index = "pytorch-cpu" },
+]
+
 [[tool.uv.index]]
 name = "pytorch-cpu"
 url = "https://download.pytorch.org/whl/cpu"
-explicit = true
+explicit = false
