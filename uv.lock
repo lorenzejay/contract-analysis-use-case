@@ -148,7 +148,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "crewai", extras = ["tools"], specifier = "==0.100.1" },
+    { name = "crewai", extras = ["tools"], specifier = "==0.102.0" },
     { name = "docling", specifier = ">=2.15.1" },
     { name = "openai", specifier = ">=1.60.0" },
     { name = "qdrant-client", specifier = ">=1.13.2" },
@@ -579,7 +579,7 @@ wheels = [
 
 [[package]]
 name = "crewai"
-version = "0.100.1"
+version = "0.102.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "appdirs" },
@@ -606,9 +606,9 @@ dependencies = [
     { name = "tomli-w" },
     { name = "uv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fb/5c/f476e790c0c1ec3b68cb1ea4b47e783de66436c24d77764ebc8749ba074e/crewai-0.100.1.tar.gz", hash = "sha256:e0a884d4462f85133fb92922cf29eec30d81256768b51505c9b4cd37e70715f0", size = 7774570 }
+sdist = { url = "https://files.pythonhosted.org/packages/a1/c8/9605444f3a2025537b54b044572925fb381fdfd3595a77306cc175b23f68/crewai-0.102.0.tar.gz", hash = "sha256:da3c10a126d1176265e1a649a00c2c462e947c91090595d05bd6b7d04e56bc74", size = 25259089 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d2/72/5eefd0f1a605a4167b278afb8b1eae731730e2726436890774967b0a6bee/crewai-0.100.1-py3-none-any.whl", hash = "sha256:50663f122ce6b4efa3dcd16b409ae93276ec67bd81c804e9d6794c6948d2b2ca", size = 234999 },
+    { url = "https://files.pythonhosted.org/packages/b0/15/47cb5ff6d5eb286377b312d8d9ed0a3c1472bef41ec90bafffaf285b80e3/crewai-0.102.0-py3-none-any.whl", hash = "sha256:af9ce144fa48cb0314946b509b0d415f01af3066fa2cfb42f27e05df3fb6539e", size = 240224 },
 ]
 
 [package.optional-dependencies]
@@ -618,7 +618,7 @@ tools = [
 
 [[package]]
 name = "crewai-tools"
-version = "0.33.0"
+version = "0.36.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "chromadb" },
@@ -633,9 +633,9 @@ dependencies = [
     { name = "pytube" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/79/0f/620e00c6325e5eeeb89dfe7d89d53fbde6aec2530945a4cab890dadf6abc/crewai_tools-0.33.0.tar.gz", hash = "sha256:cc49e83054ef38616478cd4cccb6b10b075b80cd8d658b501c3e871abe8a7dd7", size = 892332 }
+sdist = { url = "https://files.pythonhosted.org/packages/4d/e1/d65778cf4aea106f3f60a4208521f04bc7f1d26be4e34eeb63cae6297d50/crewai_tools-0.36.0.tar.gz", hash = "sha256:761b396ee6a4019a988720dd6a14e1409f5de9d0cdc2a8662b487d87efb1a6bf", size = 900178 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c7/48/b73e81cf4a0c37b1dac0df1f82a4db0a91781046e4cee165d6dce5c1ae57/crewai_tools-0.33.0-py3-none-any.whl", hash = "sha256:314a7e2d2a0bbff32b034bb6a5553ad7a426fe9214003fe7147546fd09c9648f", size = 542904 },
+    { url = "https://files.pythonhosted.org/packages/bd/b6/533632a6c2a2e623fc4a1677458aff3539413a196fb220a7fece4ead3f71/crewai_tools-0.36.0-py3-none-any.whl", hash = "sha256:dbd0d95a080acfb281e105f4376e1e98576dae6d53d94f7b883c57af893668b3", size = 545937 },
 ]
 
 [[package]]
@@ -2134,7 +2134,7 @@ wheels = [
 
 [[package]]
 name = "litellm"
-version = "1.59.8"
+version = "1.60.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -2149,9 +2149,9 @@ dependencies = [
     { name = "tiktoken" },
     { name = "tokenizers" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/86/b0/c8ec06bd1c87a92d6d824008982b3c82b450d7bd3be850a53913f1ac4907/litellm-1.59.8.tar.gz", hash = "sha256:9d645cc4460f6a9813061f07086648c4c3d22febc8e1f21c663f2b7750d90512", size = 6428607 }
+sdist = { url = "https://files.pythonhosted.org/packages/94/8f/704cdb0fdbdd49dc5062a39ae5f1a8f308ae0ffd746df6e0137fc1776b8a/litellm-1.60.2.tar.gz", hash = "sha256:a8170584fcfd6f5175201d869e61ccd8a40ffe3264fc5e53c5b805ddf8a6e05a", size = 6447447 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b9/38/889da058f566ef9ea321aafa25e423249492cf2a508dfdc0e5acfcf04526/litellm-1.59.8-py3-none-any.whl", hash = "sha256:2473914bd2343485a185dfe7eedb12ee5fda32da3c9d9a8b73f6966b9b20cf39", size = 6716233 },
+    { url = "https://files.pythonhosted.org/packages/8a/ba/0eaec9aee9f99fdf46ef1c0bddcfe7f5720b182f84f6ed27f13145d5ded2/litellm-1.60.2-py3-none-any.whl", hash = "sha256:1cb08cda04bf8c5ef3e690171a779979e4b16a5e3a24cd8dc1f198e7f198d5c4", size = 6746809 },
 ]
 
 [[package]]
@@ -2893,7 +2893,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "1.60.0"
+version = "1.65.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -2905,9 +2905,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d4/2d/9bdf4435d7669b4d027d6d69b4ac82f6be76153d9e90d3155d4224626a29/openai-1.60.0.tar.gz", hash = "sha256:7fa536cd4b644718645b874d2706e36dbbef38b327e42ca0623275da347ee1a9", size = 347844 }
+sdist = { url = "https://files.pythonhosted.org/packages/32/4f/b34b6fad12e1f6b3f42922214c161d5ef74a50fa97d9ae7d680db0958ff4/openai-1.65.3.tar.gz", hash = "sha256:9b7cd8f79140d03d77f4ed8aeec6009be5dcd79bbc02f03b0e8cd83356004f71", size = 358821 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c0/53/782008d94f5f3141795e65bd7f87afaebb97e7516342299c1b1a08d5aaf8/openai-1.60.0-py3-none-any.whl", hash = "sha256:df06c43be8018274980ac363da07d4b417bd835ead1c66e14396f6f15a0d5dda", size = 456109 },
+    { url = "https://files.pythonhosted.org/packages/86/d5/b8378be0f4cf192992aa3080eb9ddcdca3109b399be61984424aaa79f847/openai-1.65.3-py3-none-any.whl", hash = "sha256:a155fa5d60eccda516384d3d60d923e083909cc126f383fe4a350f79185c232a", size = 472758 },
 ]
 
 [[package]]

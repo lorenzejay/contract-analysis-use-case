@@ -5,7 +5,7 @@ description = "analyzing_contract_clauses_for_conflicts_and_similarities using c
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<=3.13"
 dependencies = [
-    "crewai[tools]==0.100.1",
+    "crewai[tools]==0.102.0",
     "docling>=2.15.1",
     "openai>=1.60.0",
     "qdrant-client>=1.13.2",
