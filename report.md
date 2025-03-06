@@ -1,40 +1,48 @@
-# Comprehensive Report: Comparative Analysis of Contract Clauses
+**Comprehensive Report on Warranty Clauses**
 
-## Introduction
-This report presents an in-depth analysis of provisions from the contracts of **Digital Cinema Destinations Corp.** and **Cybergy Holdings Inc.** The focus is on comparing the clauses related to warranties and disclaimers, highlighting key findings in terms of conflicts, similarities, differences, and source references.
+**1. Introduction**
+This report analyzes the warranty clauses from two different contracts: DigitalCinemaDestinationsCorp and Cybergy Holdings, Inc. The aim is to identify conflicts, similarities, and differences in the warranty provisions established in each agreement.
 
-## Analyzed Clauses
+**2. Analyzed Clauses**
 
-### Digital Cinema Destinations Corp.
-- **Clause**: Equipment Disclaimer
-- **Text**: 
-  "EXCEPT AS EXPRESSLY AND EXPLICITLY SET FORTH IN THIS ARTICLE, INCLUDING, WITHOUT LIMITATION, ANY REPRESENTATIONS AND WARRANTIES SET FORTH IN SECTION 9.1(c), ANY AND ALL INFORMATION, PRODUCTS, AND SERVICES, INCLUDING, WITHOUT LIMITATION, THE NCM PROPERTY, IS PROVIDED 'AS IS' AND 'WITH ALL FAULTS' AND NCM MAKES NO REPRESENTATIONS OR WARRANTIES, AND DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, WRITTEN OR ORAL, ARISING FROM COURSE OF DEALING, COURSE OF PERFORMANCE, USAGE OF TRADE, OR OTHERWISE INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF TITLE, NONINFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE."
-- **Source**: DIGITAL CINEMA DESTINATIONS CORP., S-1, 12/20/2011
+**2.1 DigitalCinemaDestinationsCorp**
+*Document Title:* DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.pdf  
+*Section Analyzed:* **Section 9.1 - Representations and Warranties**  
 
-### Cybergy Holdings Inc.
-- **Clause**: Section 16.1
-- **Text**: 
-  "EXCEPT AS EXCLUSIVELY SET FORTH IN THIS PARAGRAPH, COMPANY DOES NOT MAKE ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT RESTRICTED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WHICH WARRANTIES ARE HEREBY DISCLAIMED."
-- **Source**: CYBERGY HOLDINGS, INC., 10-Q, 5/20/2014
+**Clause:**
+"Each party represents and warrants that:
+(a) It (i) is duly formed and organized, validly existing, and in good standing under the laws of the jurisdiction of its formation and incorporation and has the power and authority to carry on its business as carried on, and (ii) has the right to enter into this Agreement and to perform its obligations under this Agreement and has the power and authority to execute and deliver this Agreement.
+(b) Any registration, declaration, or filing with, or consent, approval, license, permit or other authorization or order by, any governmental or regulatory authority, domestic or foreign, that is required to be obtained by it in connection with the valid execution, delivery, acceptance and performance by it under this Agreement or the consummation by it of any transaction contemplated hereby has been completed, made, or obtained, as the case may be.
+(c) Each party is the exclusive owner of, or otherwise has or will have timely obtained all rights, licenses, clearances and consents necessary to make the grants of rights made or otherwise perform its obligations under this Agreement."
 
-## Comparative Analysis
+---
 
-### Similarities
-- Both clauses include a disclaimer of warranties, explicitly stating that there are no express or implied warranties provided by either party.
-- Each clause emphasizes the exclusion of implied warranties, particularly regarding merchantability and fitness for a specific purpose.
+**2.2 Cybergy Holdings, Inc.**
+*Document Title:* CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.pdf  
+*Section Analyzed:* **Section 16 - Warranties by Company**  
 
-### Differences
-- **Language Complexity**: Digital Cinema's clause is more detailed, citing multiple areas of disclaimers including all information, products, and services, whilst Cybergy's clause is more succinct and focused solely on the company's position.
-- **Scope**: Digital Cinema’s disclaimer contains a broad scope of service inclusions, stating "any and all information, products, and services," while Cybergy focuses only on the company's express stance on warranties.
+**Clauses:**
+16.1 "EXCEPT AS EXCLUSIVELY SET FORTH IN THIS PARAGRAPH, COMPANY DOES NOT MAKE ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT RESTRICTED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WHICH WARRANTIES ARE HEREBY DISCLAIMED."
 
-### Key Findings
-- **Conflicts**: There appear to be no direct conflicts as both clauses serve to protect their respective companies from warranty claims.
-- **Implications**: The wording and detail in the Digital Cinema clause suggest a more defensive strategy against potential claims compared to the more straightforward approach taken by Cybergy.
+16.2 "COMPANY'S SOLE AND EXCLUSIVE LIABILITY FOR THE WARRANTY PROVIDED IN SUBPARAGRAPH (A) HEREOF SHALL BE TO CORRECT THE TECHNOLOGY TO OPERATE IN SUBSTANTIAL ACCORDANCE WITH ITS THEN CURRENT SPECIFICATIONS OR REPLACE, AT ITS OPTION, THE TECHNOLOGY NOT IN COMPLIANCE WITH COMPANY'S AND COMPANY' PUBLISHED SPECIFICATIONS REGARDING THE TECHNOLOGY; PROVIDED, ANY CLAIM FOR BREACH OF WARRANTY UNDER SUBPARAGRAPH (A) HEREOF MUST BE MADE IN WRITING WITHIN (90) DAYS FROM DATE OF SHIPMENT."
 
-## Conclusion
-The analysis of the warranty disclaimers from Digital Cinema Destinations Corp. and Cybergy Holdings Inc. reveals both the alignment and strategic differences in legal language. Digital Cinema's more elaborate approach may offer comprehensive protection in varying scenarios, while Cybergy's succinct clause simplifies its legal posture but might leave it exposed in more complex warranty discussions.
+16.3 "IN NO EVENT SHALL COMPANY BE LIABLE TO 'MA', ITS CLIENTS, OR ANY THIRD PARTY FOR ANY TORT OR CONTRACT DAMAGES OR INDIRECT, SPECIAL, GENERAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO, LOSS OF PROFITS OR ANTICIPATED PROFITS AND LOSS OF GOODWILL, ARISING IN CONNECTION WITH THE USE (OR INABILITY TO USE) OR DISTRIBUTION OF THE TECHNOLOGY FOR ANY PURPOSE WHATSOEVER."
 
-## References
-1. Digital Cinema Destinations Corp., S-1, 12/20/2011
-2. Cybergy Holdings Inc., 10-Q, 5/20/2014
-```
+16.4 "SOME STATES AND/OR COUNTRIES DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY HAVE OTHER RIGHTS WHICH MAY VARY FROM STATE TO STATE OR COUNTRY TO COUNTRY."
+
+16.5 "SOME STATES AND/OR COUNTRIES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL AND CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU."
+
+---
+
+**3. Analysis of Findings**
+
+**3.1 Similarities**
+- Both agreements contain representations concerning the legal standing and operational authority of the contracting parties.
+- Both clauses limit the liability of the company with respect to warranties, indicating specific responsibilities such as repair or replacement of products.
+
+**3.2 Differences**
+- The DigitalCinemaDestinationsCorp clause focuses on the representations and warranties concerning legal standing and rights, while Cybergy Holdings, Inc. explicitly disclaims all express or implied warranties except those outlined in the document.
+- Cybergy Holdings, Inc. clearly addresses inadvertent damages, while DigitalCinemaDestinationsCorp does not explicate any limitations on liability.
+
+**4. Conclusion**
+This report elucidates key contrasts in warranty clauses from the two contracts, highlighting the extensive disclaimers in Cybergy Holdings, Inc. in contrast with the more rights-focused representations of DigitalCinemaDestinationsCorp. Understanding these discrepancies and similarities is vital for stakeholders as they navigate potential liabilities and rights in these contractual agreements.
